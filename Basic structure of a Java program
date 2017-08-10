@@ -1,0 +1,40 @@
+
+Basic structure of a Java program  
+A Java program ( class) is either a library of
+static methods (functions) or a data type definition. To create libraries of static methods
+and data-type definitions, we use the following five components, the basis of program-
+ming in Java and many other modern languages:
+■  Primitive data types precisely define the meaning of terms like integer, real num-
+ber, and boolean value within a computer program. Their definition includes the
+set of possible values and operations on those values, which can be combined
+into expressions like mathematical expressions that define values.
+
+■  Statements allow us to define a computation by creating and assigning values to
+variables, controlling execution flow, or causing side effects. We use six types of
+statements: declarations, assignments(分配 赋值), conditionals, loops, calls, and returns.
+
+■  Arrays allow us to work with multiple values of the same type.
+
+■  Static methods allow us to encapsulate and reuse code and to develop programs
+as a set of independent modules.
+
+■  Strings are sequences of characters. Some operations on them are built in to Java.
+
+■  Input/output sets up communication between programs and the outside world.
+
+■  Data abstraction extends encapsulation and reuse to allow us to define non-
+primitive data types, thus supporting object-oriented programming.
+
++++Arrays  
+An array stores a sequence of values that are all of the same type. We want
+not only to store values but also to access each individual value. The method that we
+use to refer to individual values in an array is numbering and then indexing them. If
+we have N values, we think of them as being numbered from 0 to N?1. Then, we can
+unambiguously specify one of them in Java code by using the notation  a[i] to refer to
+the  i th value for any value of  i from  0 to  N-1 . This Java construct is known as a one-
+dimensional array.
++++++Creating and initializing an array.  Making an array in a Java program involves three
+distinct steps:
+■  Declare the array name and type.
+■  Create the array.
+■  Initialize the array values.
